@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Floor
+  - Entrance
+  - Obstacle
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Post Processing
+  - Player
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1722698153
+    locked: 0
+  - name: Jetpack
+    uniqueID: 618263371
+    locked: 0
+  - name: Player
+    uniqueID: 1565633555
+    locked: 0
+  - name: Obstacle
+    uniqueID: 3668292455
+    locked: 0
+  - name: Ship
+    uniqueID: 2264404163
+    locked: 0
+  - name: UI
+    uniqueID: 4171399229
+    locked: 0
