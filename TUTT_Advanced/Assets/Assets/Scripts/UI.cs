@@ -54,7 +54,7 @@ public class UI : MonoBehaviour
         problemText.text = problem.firstNumber + operatorText + problem.secondNumber;
 
         // set the answers texts to display the correct and incorrect answers
-        for(int index = 0; index < answersTexts.Length; ++index)
+        for(int index = 0; index < 4; ++index)
         {
             answersTexts[index].text = problem.answers[index].ToString();
         }
