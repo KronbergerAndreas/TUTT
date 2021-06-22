@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class Obstacle : MonoBehaviour
 {
-    public Vector3 moveDir;         // direction to move in
-    public float moveSpeed;         // speed to move at along moveDir
+    public Vector3 moveDir;         
+    public float moveSpeed;         
 
-    private float aliveTime = 8.0f; // time before object is destroyed
+    private float aliveTime = 8.0f; 
 
     void Start ()
     {
@@ -16,10 +16,8 @@ public class Obstacle : MonoBehaviour
 
     void Update ()
     {
-        // move obstacle in certain direction over time
         transform.position += moveDir * moveSpeed * Time.deltaTime;
 
-        // rotate obstacle
         transform.Rotate(Vector3.back * moveDir.x * (moveSpeed * 20) * Time.deltaTime);
     }
 }
